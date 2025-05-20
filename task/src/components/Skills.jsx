@@ -1,5 +1,5 @@
 import React from 'react';
-import axios from '../utils/axios'; // Adjust path if needed
+import axios from '../utils/axios'; 
 
 const Skills = ({ formData, goBack, setFormData }) => {
   const handleChange = (e) => {

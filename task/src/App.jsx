@@ -13,9 +13,9 @@ const App = () => {
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
   const handleFormSubmit = (data) => {
-  setFormData(data); // Just update formData
+  setFormData(data); 
   setIsFormSubmitted(true);
-  setActiveTab('skills'); // Move to skills tab
+  setActiveTab('skills');
 };
 
   return (
